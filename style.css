@@ -692,4 +692,11 @@ body {
         font-size: 6vw;
         font-weight: 600;
     }
+
+    #resPara2page4 {
+        text-align: center;
+        font-weight: 500;
+        color: #7a7984;
+        margin: 7.5vw 0 7.5vw 0;
+    }
 }
