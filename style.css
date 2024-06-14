@@ -550,7 +550,7 @@ body {
 
     #resCardspage3 {
         display: block;
-        margin: 0 3vw 0 4.6vw;
+        margin: 5vw 3vw 5vw 4.6vw;
     }
 
     #resCardpage3 {
@@ -560,15 +560,13 @@ body {
     .resCardbpage3 {
         width: 90vw;
         display: block;
-        /* border: 1px solid #dbd9ec; */
-        border: 2px solid black;
+        border: 1px solid #dbd9ec;
         border-radius: 6.6vw;
         margin-top: 8vw;
     }
 
     .resCardbpage3>img {
         width: 100%;
-        /* margin: 0 5% 0 5%; */
     }
 
     .resCardH3-1 {
