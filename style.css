@@ -524,7 +524,9 @@ body {
 
     #resLpage3arrow {
         display: flex;
-        gap: 2.5vw;
+        gap: 60vw;
+        padding: 0 6vw 0 6vw;
+        margin-top: 7vw;
     }
     
     #resLcircle {
@@ -551,4 +553,6 @@ body {
         margin-top: 6.5vw;
         margin-left: 5.7vw;
     }
+
+
 }
