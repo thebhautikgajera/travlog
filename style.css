@@ -309,13 +309,8 @@ body {
     justify-content: space-between;
 }
 
-.cardbpage3div>h3 {
-    font-family: "Poppins", sans-serif;
-}
-
 .cardbpage3>h4 {
     padding: 0.5vw 2vw;
-    font-family: "Poppins", sans-serif;
 }
 
 .cardbpage3div2 {
@@ -326,7 +321,6 @@ body {
 }
 
 .cardbpage3div2>h4 {
-    font-family: "Poppins", sans-serif;
     color: #FF5722;
 }
 
@@ -554,5 +548,51 @@ body {
         margin-left: 5.7vw;
     }
 
+    #resCardspage3 {
+        margin: 3vw;
+    }
+    
+    #resCardpage3 {
+        display: block;
+    }
+    
+    .resCardbpage3 {
+        height: 60vh;
+        width: 90.5vw;
+        /* border: 1px solid #dbd9ec; */
+        border: 2px solid black;
+        border-radius: 6.9vw;
+        margin-top: 8vw;
+    }
+
+    .resCardbpage3>img{
+        width: 90vw;
+    }
+
+    .resCardH3-1{
+        padding: 5vw 5vw;
+        color: #F85E9F;
+    }
+
+    .resCardH3-2{
+        padding: 0 5vw 5vw 5vw;
+    }
+    
+    .resCardbpage3>h4 {
+        font-weight: 400; 
+        color: rgb(109, 108, 108);
+        padding: 0 5vw 5vw 5vw;
+    }
+    
+    .resCardbpage3div2 {
+        display: flex;
+        gap: 4vw;
+        align-items: center;
+        padding: 2vw 5vw 2vw 5vw;
+    }
+    
+    .resCardbpage3div2>h4 {
+        color: #FF5722;
+    }
 
 }
