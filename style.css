@@ -328,6 +328,69 @@ body {
     display: none;
 }
 
+#page-4 {
+    height: 100vh;
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+}
+
+#h3lpage4 {
+    margin-top: 2vw;
+    padding: 0 6vw;
+}
+
+#h3lpage4>h3 {
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #F85E9F;
+}
+
+#plpage4 {
+    padding: 0 6vw;
+    margin-top: 2vw;
+}
+
+#plpage4>h1 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#para1page4 {
+    padding: 0 6vw;
+    margin-top: 1.5vw;
+    color: #191825;
+}
+
+.cardsrpage4 {
+    margin-top: 2vw;
+    padding: 0 6vw;
+}
+
+.cardgrp {
+    display: flex;
+    gap: 5vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.cardP4 {
+    height: 9vw;
+    width: 9vw;
+    padding: 1vw 1vw;
+    border: 2px solid rgb(244, 244, 244);
+    border-radius: 2vw;
+    text-align: center;
+}
+
+.cardP4>h2 {
+    color: #FF5722;
+}
+
+#page-4-responsive{
+    display: none;
+}
+
 @media (min-width:320px) and (max-width:480px) {
     #navbar {
         width: 100%;
@@ -593,6 +656,14 @@ body {
 
     .resCardbpage3div2>h4 {
         color: #FF5722;
+    }
+
+    #page-4{
+        display: none;
+    }
+
+    #page-4-responsive{
+        display: block;
     }
 
 }
