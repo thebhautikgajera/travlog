@@ -324,7 +324,7 @@ body {
     color: #FF5722;
 }
 
-#page-3-responsive{
+#page-3-responsive {
     display: none;
 }
 
@@ -485,11 +485,11 @@ body {
         font-weight: 500;
     }
 
-    #page-3{
+    #page-3 {
         display: none;
     }
 
-    #page-3-responsive{
+    #page-3-responsive {
         display: block;
     }
 
@@ -522,7 +522,7 @@ body {
         padding: 0 6vw 0 6vw;
         margin-top: 7vw;
     }
-    
+
     #resLcircle {
         height: 15vw;
         width: 15vw;
@@ -530,67 +530,69 @@ body {
         border: 1px solid #000;
         border-radius: 50%;
     }
-    
+
     #resLcircle>img {
         margin-top: 5.7vw;
         margin-left: 5.5vw;
     }
-    
+
     #resRcircle {
         height: 15vw;
         width: 15vw;
         background-color: #5D50C6;
         border-radius: 50%;
     }
-    
+
     #resRcircle>img {
         margin-top: 6.5vw;
         margin-left: 5.7vw;
     }
 
     #resCardspage3 {
-        margin: 3vw;
+        display: block;
+        margin: 0 3vw 0 4.6vw;
     }
-    
+
     #resCardpage3 {
         display: block;
     }
-    
+
     .resCardbpage3 {
-        height: 60vh;
-        width: 90.5vw;
+        width: 90vw;
+        display: block;
         /* border: 1px solid #dbd9ec; */
         border: 2px solid black;
-        border-radius: 6.9vw;
+        border-radius: 6.6vw;
         margin-top: 8vw;
     }
 
-    .resCardbpage3>img{
-        width: 90vw;
+    .resCardbpage3>img {
+        width: 100%;
+        /* margin: 0 5% 0 5%; */
     }
 
-    .resCardH3-1{
+    .resCardH3-1 {
         padding: 5vw 5vw;
         color: #F85E9F;
     }
 
-    .resCardH3-2{
+    .resCardH3-2 {
         padding: 0 5vw 5vw 5vw;
     }
-    
+
     .resCardbpage3>h4 {
-        font-weight: 400; 
+        font-weight: 400;
         color: rgb(109, 108, 108);
         padding: 0 5vw 5vw 5vw;
     }
-    
+
     .resCardbpage3div2 {
         display: flex;
         gap: 4vw;
         align-items: center;
         padding: 2vw 5vw 2vw 5vw;
     }
-    
+
     .resCardbpage3div2>h4 {
         color: #FF5722;
     }
