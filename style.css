@@ -589,8 +589,7 @@ body {
     #resLcircle {
         height: 15vw;
         width: 15vw;
-        /* border: 1px solid #f0eff6; */
-        border: 1px solid #000;
+        border: 1px solid #f0eff6;
         border-radius: 50%;
     }
 
@@ -666,4 +665,31 @@ body {
         display: block;
     }
 
+    #resImagePage4{
+        display: block;
+        margin-top: 10vw;
+    }
+
+    #resH3lpage4 {
+        margin: 20vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #resH3lpage4>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 5vw;
+        color: #F85E9F;
+    }
+
+    #resPlpage4 {
+        padding: 0 6vw;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    #resPlpage4>h1 {
+        font-size: 6vw;
+        font-weight: 600;
+    }
 }
