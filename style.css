@@ -387,7 +387,150 @@ body {
     color: #FF5722;
 }
 
-#page-4-responsive{
+#page-4-responsive {
+    display: none;
+}
+
+#page-5 {
+    height: 100vh;
+    width: 100%;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#h3lpage5 {
+    margin-top: 2vw;
+    padding: 0 6vw;
+}
+
+#h3lpage5>h3 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #F85E9F;
+}
+
+#plpage5 {
+    padding: 0 6vw;
+    margin-top: 2vw;
+}
+
+#plpage5>h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+#para1page5 {
+    padding: 0 6vw;
+    margin-top: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    color: #191825;
+}
+
+.cardspage5 {
+    padding: 0 6vw;
+    margin-top: 3vw;
+}
+
+.cardspage5bcards {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+#page-5-responsive {
+    display: none;
+}
+
+#page-6 {
+    margin-top: 16vw;
+    height: 100vh;
+    padding: 0 6vw;
+    width: 100%;
+}
+
+#page-6>h3 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #F85E9F;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+#page-6>h4 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vw;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#testimonialsPage6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lpage6arrow {
+    display: flex;
+    gap: 2.5vw;
+}
+
+#lcirclepage6 {
+    height: 5vw;
+    width: 5vw;
+    border: 1px solid #f0eff6;
+    border-radius: 50%;
+    margin-top: 11vw;
+}
+
+#lcirclepage6>img {
+    margin-top: 1.6vw;
+    margin-left: 1.6vw;
+}
+
+#rcirclepage6 {
+    height: 5vw;
+    width: 5vw;
+    background-color: #5D50C6;
+    border-radius: 50%;
+    margin-top: 11vw;
+}
+
+#rcirclepage6>img {
+    margin-top: 1.6vw;
+    margin-left: 1.6vw;
+}
+
+#cpage6 {
+    text-align: center;
+    margin-top: 4vw;
+}
+
+#cpage6>h2 {
+    margin-top: 2vw;
+}
+
+#starPage6 {
+    margin-top: 2vw;
+}
+
+#cpage6>h3 {
+    margin-top: 3vw;
+}
+
+#circlePage6 {
+    margin-top: 3.5vw;
+}
+
+.circlePage6Img {
+    margin: 0.5vw;
+}
+
+#page-6-responsive {
     display: none;
 }
 
@@ -642,7 +785,7 @@ body {
 
     .resCardbpage3>h4 {
         font-weight: 400;
-        color: rgb(109, 108, 108);
+        color: rgb(188, 188, 188);
         padding: 0 5vw 5vw 5vw;
     }
 
@@ -657,15 +800,15 @@ body {
         color: #FF5722;
     }
 
-    #page-4{
+    #page-4 {
         display: none;
     }
 
-    #page-4-responsive{
+    #page-4-responsive {
         display: block;
     }
 
-    #resImagePage4{
+    #resImagePage4 {
         display: block;
         margin-top: 10vw;
     }
@@ -697,8 +840,192 @@ body {
         text-align: center;
         font-weight: 300;
         font-size: 3.5vw;
-        color: #7a7984;
+        color: rgb(188, 188, 188);
         margin: 7.5vw 0 7.5vw 0;
         padding: 0 4vw 0 4vw;
+    }
+
+    .resCardP4 {
+        text-align: center;
+        border: 2px solid #dbd9ec;
+        margin: 6vw 5vw;
+        padding: 9vw 0;
+        border-radius: 9vw;
+    }
+
+    .resCardP4>h2 {
+        font-size: 10vw;
+        font-weight: 500;
+        color: #FF5722;
+    }
+
+    .resCardP4>h4 {
+        font-size: 5vw;
+        font-weight: 500;
+        color: rgb(188, 188, 188);
+    }
+
+    #page-5 {
+        display: none;
+    }
+
+    #page-5-responsive {
+        display: block;
+    }
+
+    #resImgPage5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10vw;
+        margin-top: 15vw;
+    }
+
+    #resImgPage5>img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #resH3lpage5 {
+        margin: 20vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #resH3lpage5>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 5vw;
+        color: #F85E9F;
+    }
+
+    #resPlpage5 {
+        padding: 0 6vw;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    #resPlpage5>h1 {
+        font-size: 6vw;
+        font-weight: 600;
+    }
+
+    #resPara2page5 {
+        text-align: center;
+        font-weight: 300;
+        font-size: 3.5vw;
+        color: rgb(188, 188, 188);
+        margin: 7.5vw 0 7.5vw 0;
+        padding: 0 4vw 0 4vw;
+    }
+
+    #resRpage5 {
+        margin: 10vw 5vw;
+    }
+
+    .resCardrpage5 {
+        margin: 6vw 5vw;
+        /* border: 1px solid #000; */
+        border: 1px solid #dbd9ec;
+        border-radius: 5vw;
+    }
+
+    .resCardrpage5>img {
+        margin: 10vw 7vw 0 7vw;
+    }
+
+    .resCardrpage5>h2 {
+        margin: 7vw;
+        font-weight: 500;
+    }
+
+    .resCardrpage5>h4 {
+        margin: 7vw 7vw 10vw 7vw;
+        color: #9b99b6;
+        font-weight: 500;
+    }
+
+    #page-6 {
+        display: none;
+    }
+
+    #page-6-responsive {
+        display: block;
+    }
+
+    #resH3lpage6 {
+        margin: 20vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #resH3lpage6>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 5vw;
+        color: #F85E9F;
+    }
+
+    #resPlpage6 {
+        padding: 0 6vw;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    #resPlpage6>h1 {
+        font-size: 6vw;
+        font-weight: 600;
+    }
+
+    #resImgPage6 {
+        margin-top: 10vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    #resStarPage6 {
+        display: flex;
+        justify-content: center;
+        margin-top: 7vw;
+        gap: 7vw;
+    }
+
+    #resCirclePage6 {
+        display: flex;
+        justify-content: center;
+        margin-top: 12vw;
+    }
+    
+    .resCirclePage6Img {
+        margin: 4vw;
+    }
+
+    #resLpage6arrow {
+        display: flex;
+        gap: 60vw;
+        padding: 0 6vw 0 6vw;
+        margin-top: 12vw;
+    }
+
+    #resLcirclePage6 {
+        height: 15vw;
+        width: 15vw;
+        border: 1px solid #f0eff6;
+        border-radius: 50%;
+    }
+
+    #resLcirclePage6>img {
+        margin-top: 5.7vw;
+        margin-left: 5.5vw;
+    }
+
+    #resRcirclePage6 {
+        height: 15vw;
+        width: 15vw;
+        background-color: #5D50C6;
+        border-radius: 50%;
+    }
+
+    #resRcirclePage6>img {
+        margin-top: 6.5vw;
+        margin-left: 5.7vw;
     }
 }
