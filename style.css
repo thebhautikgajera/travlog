@@ -523,10 +523,25 @@ body {
 }
 
 #circlePage6 {
-    margin-top: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+    gap: 1vw;
 }
 
-.circlePage6Img {
+.circlePage6Fir {
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50%;
+    background-color: #f0eff6;
+}
+
+.circlePage6Sec {
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50%;
+    background-color: #F85E9F;
     margin: 0.5vw;
 }
 
@@ -621,7 +636,7 @@ body {
     color: #8e8d94;
 }
 
-#resFooter{
+#footer-responsive{
     display: none;
 }
 
@@ -1082,11 +1097,24 @@ body {
     #resCirclePage6 {
         display: flex;
         justify-content: center;
-        margin-top: 12vw;
+        align-items: center;
+        margin-top: 16vw;
+        gap: 5vw;
     }
     
-    .resCirclePage6Img {
-        margin: 4vw;
+    .resCirclePage6Fir {
+        height: 5vw;
+        width: 5vw;
+        border-radius: 50%;
+        background-color: #f0eff6;
+    }
+    
+    .resCirclePage6Sec {
+        height: 5vw;
+        width: 5vw;
+        border-radius: 50%;
+        background-color: #F85E9F;
+        margin: 0.5vw;
     }
 
     #resLpage6arrow {
@@ -1186,16 +1214,16 @@ body {
         display: none;
     }
 
-    #resFooter{
+    #footer-responsive{
         margin-top: 12vw;
         display: block;
     }
 
-    #resFooter>img{
+    #footer-responsive>img{
         padding: 0 6vw;
     }
 
-    #resFooter>p{
+    #footer-responsive>p{
         padding: 0 6vw;
         font-size: 3vw;
         margin-top: 5vw;
