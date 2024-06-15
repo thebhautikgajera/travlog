@@ -1104,6 +1104,7 @@ body {
         background-color: #FFFBF0;
         margin: 12vw 5vw 0 5vw;
         border-radius: 5vw;
+        padding: 3vw 0 12vw 0;
     }
     
     #resH3page7>h3{
@@ -1113,7 +1114,7 @@ body {
         padding: 0 6vw;
         text-align: center;
         font-weight: 500;
-        margin-top: 3vw;
+        /* margin-top: 3vw; */
     }
     
     #resH3page7>h4 {
