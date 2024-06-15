@@ -105,10 +105,6 @@ body {
     font-size: 0.7vw;
 }
 
-#h3lpage1>h3 {
-    font-family: "Poppins", sans-serif;
-}
-
 #h1-1-page1 {
     font-family: "Poppins", sans-serif;
     margin-top: 3vw;
@@ -135,7 +131,6 @@ body {
 }
 
 #btnlpage1>h4 {
-    font-family: "Poppins", sans-serif;
     border: 2px solid #5D50C6;
     color: white;
     border-radius: 2vw;
@@ -149,10 +144,6 @@ body {
     padding: 1vw 2vw;
     border: 2px dotted rgb(222, 220, 220);
     border-radius: 2vw;
-}
-
-#btn2lpage1>h4 {
-    font-family: "Poppins", sans-serif;
 }
 
 #page-1-responsive {
@@ -640,6 +631,44 @@ body {
     display: none;
 }
 
+#nav-tablet{
+    display: none;
+}
+
+#page-1-tablet{
+    display: none;
+}
+
+#page-2-tablet{
+    display: none;
+}
+
+#page-3-tablet{
+    display: none;
+}
+
+#page-4-tablet{
+    display: none;
+}
+
+#page-5-tablet{
+    display: none;
+}
+
+#page-6-tablet{
+    display: none;
+}
+
+#page-7-tablet{
+    display: none;
+}
+
+#footer-tablet{
+    display: none;
+}
+
+
+/* For Mobile Responsive */
 @media (min-width:320px) and (max-width:480px) {
     #navbar {
         width: 100%;
@@ -1238,7 +1267,328 @@ body {
         padding: 0 2vw 0 6vw;
         margin-top: 15vw;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
     }
 
+}
+
+
+/* For Tablet Responsive */
+@media (min-width:481px) and (max-width:1024px) {
+    #navbar{
+        display: none;
+    }
+
+    #page-1 {
+        display: none;
+    }
+
+    #page-1-responsive {
+        display: none;
+    }
+
+    #page-2 {
+        display: none;
+    }
+
+    #page-2-responsive {
+        display: none;
+    }
+
+    #page-3 {
+        display: none;
+    }
+
+    #page-3-responsive {
+        display: none;
+    }
+
+    #page-4 {
+        display: none;
+    }
+
+    #page-4-responsive {
+        display: none;
+    }
+
+    #page-5 {
+        display: none;
+    }
+
+    #page-5-responsive {
+        display: none;
+    }
+
+    #page-6 {
+        display: none;
+    }
+
+    #page-6-responsive {
+        display: none;
+    }
+
+    #page-7 {
+        display: none;
+    }
+
+    #page-7-responsive {
+        display: none;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    #footer-responsive{
+        display: none;
+    }
+
+    #nav-tablet {
+        height: 100px;
+        width: 100%;
+        margin-top: 2vw;
+        /* background: #000; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5vw;
+    }
+    
+    #tabLnav {
+        margin: 0 1vw;
+    }
+
+    #tabLnav>i {
+        font-size: 3vw;
+        padding: 2vw;
+        color: #fff;
+        background-color: #5D50C6;
+        border-radius: 2vw;
+    }
+    
+    #tabCnav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #tabRnav {
+        display: flex;
+        gap: 2vw;
+    }
+    
+    #tabRnav>h4 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    #tabRnav>#tabNavbtn1 {
+        border: 2px solid white;
+        background-color: #fff;
+        color: #000;
+        padding: 1vh 3vh;
+        border-radius: 5vw;
+    }
+    
+    #tabRnav>#tabNavbtn2 {
+        border: 2px solid #5D50C6;
+        background-color: #5D50C6;
+        color: #fff;
+        padding: 1vh 3vh;
+        border-radius: 5vw;
+    }
+
+    #page-1-tablet{
+        display: block;
+        margin-top: 5vw;
+    }
+
+    #tabPage1img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #tabH3lpage1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vw;
+        padding: 0 8vw;
+        color: #F85E9F;
+        font-size: 2vw;
+    }
+    
+    #tabH1-1-page1 {
+        text-align: center;
+        margin-top: 9vw;
+        padding: 0 6vw;
+        font-size: 7vw;
+    }
+
+    #tabPara2page1 {
+        font-size: 2.5vw;
+        text-align: center;
+        padding: 0 6vw;
+        margin-top: 5vw;
+        color: #7a7984;
+    }
+
+
+    #tabBtnlpage1 {
+        display: flex;
+        justify-content: center;
+        padding: 0 6vw;
+        gap: 5vw;
+        margin-top: 7vw;
+    }
+    
+    #tabBtnlpage1>h4 {
+        border: 2px solid #5D50C6;
+        color: white;
+        border-radius: 4vw;
+        font-size: 2vw;
+        background-color: #5D50C6;
+        padding: 2vw 4vw;
+    }
+    
+    #tabBtn2lpage1 {
+        display: flex;
+        gap: 0.7vw;
+        font-size: 2vw;
+        align-items: center;
+        padding: 2vw 4vw;
+        border: 2px dotted rgb(222, 220, 220);
+        border-radius: 4vw;
+    }
+
+    #page-2-tablet {
+        display: block;
+    }
+
+    #tabImgpage2-1 {
+        margin-top: 12vw;
+        padding: 8vw 5vw 3vw 0;
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    #tabImgpage2-2 {
+        padding: 2.5vw 5vw 8vw 0;
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    #tabH3lpage2 {
+        margin: 6vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #tabH3lpage2>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        color: #F85E9F;
+    }
+
+    #tabPlpage2 {
+        padding: 0 6vw;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    #tabPlpage2>h1 {
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    #tabRpage2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10vw 1vw;
+        text-align: center;
+    }
+    
+    .tabCardrpage2 {
+        margin: 2vw 1vw;
+        /* border: 2px solid #000; */
+        border: 1px solid #dbd9ec;
+        border-radius: 5vw;
+    }
+
+    .tabCardrpage2>img {
+        margin: 7vw 7vw 0 7vw;
+    }
+
+    .tabCardrpage2>h2 {
+        margin: 7vw 5vw 3vw 5vw;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .tabCardrpage2>h4 {
+        margin: 5vw 7vw 6vw 7vw;
+        text-align: center;
+        color: #9b99b6;
+        font-weight: 500;
+    }
+
+    #page-3-tablet {
+        display: block;
+    }
+
+    #tabH3lpage3 {
+        margin: 20vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #tabH3lpage3>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        color: #F85E9F;
+    }
+
+    #tabPlpage3 {
+        padding: 0 6vw;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    #tabPlpage3>h1 {
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    #tabLpage3arrow {
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        padding: 0 6vw 0 6vw;
+        margin-top: 7vw;
+    }
+
+    #tabLcircle {
+        height: 15vw;
+        width: 15vw;
+        border: 1px solid #f0eff6;
+        border-radius: 50%;
+    }
+
+    #tabLcircle>img {
+        margin-top: 5.7vw;
+        margin-left: 5.4vw;
+    }
+
+    #tabRcircle {
+        height: 15vw;
+        width: 15vw;
+        background-color: #5D50C6;
+        border-radius: 50%;
+    }
+
+    #tabRcircle>img {
+        margin-top: 5.7vw;
+        margin-left: 5.7vw;
+    }
 }
