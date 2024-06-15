@@ -1202,4 +1202,15 @@ body {
         color: #8e8d94;
     }
 
+    #resFooterLogo{
+        padding: 0 6vw;
+    }
+
+    .resFooterDets{
+        padding: 0 2vw 0 6vw;
+        margin-top: 15vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
