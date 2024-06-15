@@ -534,6 +534,72 @@ body {
     display: none;
 }
 
+#page-7{
+    background-color: #FFFBF0;
+    margin: 5vw 5vw 0 5vw;
+    border-radius: 3vw;
+}
+
+#h3page7>h3{
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #F85E9F;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+#h3page7>h4 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 3vw;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#formPage7{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#newsletterFormText{
+    margin-top: 4vw;
+}
+
+#newsletterFormbtn{
+    margin-top: 4vw;
+}
+
+#newsletterFormText>input[type=text]{
+    height: 5vw;
+    width: 45vw;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vw;
+    padding: 0 2vw;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 1.3vw;
+}
+
+#newsletterFormbtn>button{
+    height: 5vw;
+    font-size: 1.3vw;
+    width: 13vw;
+    border: 1px solid #5D50C6;
+    background-color: #5D50C6;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vw;
+    padding: 0 2vw;
+}
+
+#page-7-responsive{
+    display: none;
+}
+
 @media (min-width:320px) and (max-width:480px) {
     #navbar {
         width: 100%;
@@ -1028,4 +1094,68 @@ body {
         margin-top: 6.5vw;
         margin-left: 5.7vw;
     }
+    
+    #page-7{
+        display: none;
+    }
+
+    #page-7-responsive{
+        display: block;
+        background-color: #FFFBF0;
+        margin: 12vw 5vw 0 5vw;
+        border-radius: 5vw;
+    }
+    
+    #resH3page7>h3{
+        letter-spacing: 0.3vw;
+        font-size: 5vw;
+        color: #F85E9F;
+        padding: 0 6vw;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 9vw;
+    }
+    
+    #resH3page7>h4 {
+        margin-top: 9vw;
+        font-size: 6vw;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    #resNewsletterFormText{
+        margin-top: 4vw;
+        display: block;
+        text-align: center;
+    }
+    
+    #resNewsletterFormbtn{
+        margin-top: 4vw;
+        display: block;
+        text-align: center;
+    }
+    
+    #resNewsletterFormText>input[type=text]{
+        height: 15vw;
+        width: 74vw;
+        margin-top: 1.5vw;
+        padding: 0 6vw;
+        border: 1px solid #fff;
+        border-radius: 3vw;
+        font-size: 5vw;
+    }
+    
+    #resNewsletterFormbtn>button{
+        height: 15vw;
+        width: 74vw;
+        font-size: 5vw;
+        border: 1px solid #5D50C6;
+        background-color: #5D50C6;
+        border-radius: 3vw;
+        color: #ffffff;
+        margin-top: 1.5vw;
+        padding: 0 6vw;
+    }
+
+    
 }
