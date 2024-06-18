@@ -1694,6 +1694,7 @@ body {
 
     #page-5-tablet{
         display: block;
+        margin-top: 20vw;
     }
 
     #tabImgPage5{
@@ -1705,5 +1706,36 @@ body {
     #tabImgPage5>img{
         object-fit: cover;
         object-position: center;
+    }
+
+    #tabH3lpage5 {
+        margin: 10vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #tabH3lpage5>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        color: #F85E9F;
+    }
+
+    #tabPlpage5 {
+        padding: 0 6vw;
+        margin-top: 2vw;
+        text-align: center;
+    }
+
+    #tabPlpage5>h1 {
+        font-size: 4.1vw;
+        font-weight: 600;
+    }
+
+    #tabPara1page5 {
+        font-size: 1.8vw;
+        text-align: center;
+        padding: 0 6vw;
+        margin-top: 5vw;
+        color: #7a7984;
     }
 }
