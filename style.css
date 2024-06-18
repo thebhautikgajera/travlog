@@ -540,14 +540,14 @@ body {
     display: none;
 }
 
-#page-7{
+#page-7 {
     background-color: #FFFBF0;
     margin: 5vw 5vw 0 5vw;
     border-radius: 3vw;
     padding: 5vw 0 5vw 0;
 }
 
-#h3page7>h3{
+#h3page7>h3 {
     font-family: "Poppins", sans-serif;
     letter-spacing: 0.3vw;
     font-size: 2vw;
@@ -565,21 +565,21 @@ body {
     text-align: center;
 }
 
-#formPage7{
+#formPage7 {
     display: flex;
     justify-content: center;
     gap: 3vw;
 }
 
-#newsletterFormText{
+#newsletterFormText {
     margin-top: 4vw;
 }
 
-#newsletterFormbtn{
+#newsletterFormbtn {
     margin-top: 4vw;
 }
 
-#newsletterFormText>input[type=text]{
+#newsletterFormText>input[type=text] {
     height: 5vw;
     width: 45vw;
     font-family: "Poppins", sans-serif;
@@ -590,7 +590,7 @@ body {
     font-size: 1.3vw;
 }
 
-#newsletterFormbtn>button{
+#newsletterFormbtn>button {
     height: 5vw;
     font-size: 1.3vw;
     width: 13vw;
@@ -603,11 +603,11 @@ body {
     padding: 0 2vw;
 }
 
-#page-7-responsive{
+#page-7-responsive {
     display: none;
 }
 
-#footer{
+#footer {
     height: 70vh;
     width: 100%;
     display: flex;
@@ -615,55 +615,56 @@ body {
     gap: 3vw;
     padding: 0 7vw;
 }
-#rfooter{
+
+#rfooter {
     display: flex;
     gap: 6vw;
     margin-top: 5vw;
 }
 
-.rfooterdets1>h2{
+.rfooterdets1>h2 {
     font-weight: 400;
     margin-top: 3vw;
     color: #8e8d94;
 }
 
-#footer-responsive{
+#footer-responsive {
     display: none;
 }
 
-#nav-tablet{
+#nav-tablet {
     display: none;
 }
 
-#page-1-tablet{
+#page-1-tablet {
     display: none;
 }
 
-#page-2-tablet{
+#page-2-tablet {
     display: none;
 }
 
-#page-3-tablet{
+#page-3-tablet {
     display: none;
 }
 
-#page-4-tablet{
+#page-4-tablet {
     display: none;
 }
 
-#page-5-tablet{
+#page-5-tablet {
     display: none;
 }
 
-#page-6-tablet{
+#page-6-tablet {
     display: none;
 }
 
-#page-7-tablet{
+#page-7-tablet {
     display: none;
 }
 
-#footer-tablet{
+#footer-tablet {
     display: none;
 }
 
@@ -1130,14 +1131,14 @@ body {
         margin-top: 16vw;
         gap: 5vw;
     }
-    
+
     .resCirclePage6Fir {
         height: 5vw;
         width: 5vw;
         border-radius: 50%;
         background-color: #f0eff6;
     }
-    
+
     .resCirclePage6Sec {
         height: 5vw;
         width: 5vw;
@@ -1176,20 +1177,20 @@ body {
         margin-top: 6.5vw;
         margin-left: 5.7vw;
     }
-    
-    #page-7{
+
+    #page-7 {
         display: none;
     }
 
-    #page-7-responsive{
+    #page-7-responsive {
         display: block;
         background-color: #FFFBF0;
         margin: 12vw 5vw 0 5vw;
         border-radius: 5vw;
         padding: 3vw 0 12vw 0;
     }
-    
-    #resH3page7>h3{
+
+    #resH3page7>h3 {
         letter-spacing: 0.3vw;
         font-size: 5vw;
         color: #F85E9F;
@@ -1197,27 +1198,27 @@ body {
         text-align: center;
         font-weight: 500;
     }
-    
+
     #resH3page7>h4 {
         margin-top: 9vw;
         font-size: 6vw;
         font-weight: 600;
         text-align: center;
     }
-    
-    #resNewsletterFormText{
+
+    #resNewsletterFormText {
         margin-top: 4vw;
         display: block;
         text-align: center;
     }
-    
-    #resNewsletterFormbtn{
+
+    #resNewsletterFormbtn {
         margin-top: 4vw;
         display: block;
         text-align: center;
     }
-    
-    #resNewsletterFormText>input[type=text]{
+
+    #resNewsletterFormText>input[type=text] {
         height: 15vw;
         width: 74vw;
         margin-top: 1.5vw;
@@ -1226,8 +1227,8 @@ body {
         border-radius: 3vw;
         font-size: 5vw;
     }
-    
-    #resNewsletterFormbtn>button{
+
+    #resNewsletterFormbtn>button {
         height: 15vw;
         width: 74vw;
         font-size: 5vw;
@@ -1239,35 +1240,35 @@ body {
         padding: 0 6vw;
     }
 
-    #footer{
+    #footer {
         display: none;
     }
 
-    #footer-responsive{
+    #footer-responsive {
         margin-top: 12vw;
         display: block;
     }
 
-    #footer-responsive>img{
+    #footer-responsive>img {
         padding: 0 6vw;
     }
 
-    #footer-responsive>p{
+    #footer-responsive>p {
         padding: 0 6vw;
         font-size: 3vw;
         margin-top: 5vw;
         color: #8e8d94;
     }
 
-    #resFooterLogo{
+    #resFooterLogo {
         padding: 0 6vw;
     }
 
-    .resFooterDets{
+    .resFooterDets {
         padding: 0 2vw 0 6vw;
         margin-top: 15vw;
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-between;
     }
 
 }
@@ -1275,7 +1276,7 @@ body {
 
 /* For Tablet Responsive */
 @media (min-width:481px) and (max-width:1024px) {
-    #navbar{
+    #navbar {
         display: none;
     }
 
@@ -1335,11 +1336,11 @@ body {
         display: none;
     }
 
-    #footer{
+    #footer {
         display: none;
     }
 
-    #footer-responsive{
+    #footer-responsive {
         display: none;
     }
 
@@ -1353,7 +1354,7 @@ body {
         align-items: center;
         padding: 0 5vw;
     }
-    
+
     #tabLnav {
         margin: 0 1vw;
     }
@@ -1365,17 +1366,17 @@ body {
         background-color: #5D50C6;
         border-radius: 2vw;
     }
-    
+
     #tabCnav {
         display: flex;
         justify-content: center;
     }
-    
+
     #tabRnav {
         display: flex;
         gap: 2vw;
     }
-    
+
     #tabRnav>h4 {
         font-family: "Poppins", sans-serif;
         font-weight: 500;
@@ -1388,7 +1389,7 @@ body {
         padding: 1vh 3vh;
         border-radius: 5vw;
     }
-    
+
     #tabRnav>#tabNavbtn2 {
         border: 2px solid #5D50C6;
         background-color: #5D50C6;
@@ -1397,12 +1398,12 @@ body {
         border-radius: 5vw;
     }
 
-    #page-1-tablet{
+    #page-1-tablet {
         display: block;
         margin-top: 5vw;
     }
 
-    #tabPage1img{
+    #tabPage1img {
         display: flex;
         justify-content: center;
     }
@@ -1416,7 +1417,7 @@ body {
         color: #F85E9F;
         font-size: 2vw;
     }
-    
+
     #tabH1-1-page1 {
         text-align: center;
         margin-top: 9vw;
@@ -1440,7 +1441,7 @@ body {
         gap: 5vw;
         margin-top: 7vw;
     }
-    
+
     #tabBtnlpage1>h4 {
         border: 2px solid #5D50C6;
         color: white;
@@ -1449,7 +1450,7 @@ body {
         background-color: #5D50C6;
         padding: 2vw 4vw;
     }
-    
+
     #tabBtn2lpage1 {
         display: flex;
         gap: 0.7vw;
@@ -1508,7 +1509,7 @@ body {
         margin: 10vw 1vw;
         text-align: center;
     }
-    
+
     .tabCardrpage2 {
         margin: 2vw 1vw;
         /* border: 2px solid #000; */
@@ -1590,5 +1591,118 @@ body {
     #tabRcircle>img {
         margin-top: 5.7vw;
         margin-left: 5.7vw;
+    }
+
+    #tabRpage3 {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10vw 1vw;
+        text-align: center;
+    }
+
+    .tabCardrpage3 {
+        margin: 2vw 1vw;
+        /* border: 2px solid #000; */
+        border: 1px solid #dbd9ec;
+        border-radius: 5vw;
+    }
+
+    .tabCardrpage3>img {
+        /* margin: 7vw 7vw 0 7vw; */
+    }
+
+    .tabCardrpage3>h2 {
+        margin: 7vw 5vw 3vw 5vw;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .tabCardrpage3>h4 {
+        margin: 5vw 7vw 6vw 7vw;
+        text-align: center;
+        color: #9b99b6;
+        font-weight: 500;
+    }
+
+    #page-4-tablet {
+        display: block;
+    }
+
+    #page-4-tablet>img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #tabH3lpage4 {
+        margin: 10vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #tabH3lpage4>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        color: #F85E9F;
+    }
+
+    #tabPlpage4 {
+        padding: 0 6vw;
+        margin-top: 2vw;
+        text-align: center;
+    }
+
+    #tabPlpage4>h1 {
+        font-size: 4.1vw;
+        font-weight: 600;
+    }
+
+    #tabPara1page4 {
+        font-size: 1.8vw;
+        text-align: center;
+        padding: 0 6vw;
+        margin-top: 5vw;
+        color: #7a7984;
+    }
+
+    .tabCardsrpage4 {
+        margin-top: 2vw;
+        padding: 0 0;
+    }
+    
+    .tabCardgrp {
+        display: flex;
+        justify-content: space-between;
+        gap: 5vw;
+        margin: 0 5vw 2vw 5vw;
+        text-align: center;
+    }
+    
+    .tabCardP4 {
+        height: 18vw;
+        width: 45vw;
+        padding: 3vw 0;
+        border: 2px solid rgb(244, 244, 244);
+        border-radius: 2vw;
+        text-align: center;
+    }
+    
+    .tabCardP4>h2 {
+        color: #FF5722;
+    }
+
+    #page-5-tablet{
+        display: block;
+    }
+
+    #tabImgPage5{
+        display: flex;
+        justify-content: center;
+        padding: 0 5vw;
+    }
+
+    #tabImgPage5>img{
+        object-fit: cover;
+        object-position: center;
     }
 }
