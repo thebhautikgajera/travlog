@@ -1607,10 +1607,6 @@ body {
         border-radius: 5vw;
     }
 
-    .tabCardrpage3>img {
-        /* margin: 7vw 7vw 0 7vw; */
-    }
-
     .tabCardrpage3>h2 {
         margin: 7vw 5vw 3vw 5vw;
         text-align: center;
@@ -1737,5 +1733,220 @@ body {
         padding: 0 6vw;
         margin-top: 5vw;
         color: #7a7984;
+    }
+
+    .tabCardspage5{
+        padding: 0 8vw;
+        margin-top: 7vw;
+    }
+    
+    .tabCardspage5bcards{
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+        margin-top: 4vw;
+        border-radius: 5vw;
+        padding: 3vw 5vw;
+    }
+
+    #page-6-tablet{
+        display: block;
+        text-align: center;
+        padding: 0 2vw;
+    }
+
+    #tabH3lpage6 {
+        margin: 10vw 0 3vw 0;
+        padding: 0 6vw;
+        text-align: center;
+    }
+
+    #tabH3lpage6>h3 {
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        color: #F85E9F;
+    }
+
+    #tabPlpage6 {
+        padding: 0 6vw;
+        margin-top: 2vw;
+        text-align: center;
+    }
+
+    #tabPlpage6>h1 {
+        font-size: 4.1vw;
+        font-weight: 600;
+    }
+
+    #tabTestimonialsPage6 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #tabLpage6arrow {
+        display: flex;
+        gap: 2.5vw;
+    }
+    
+    #tabLcirclepage6 {
+        height: 9vw;
+        width: 9vw;
+        border: 1px solid #f0eff6;
+        border-radius: 50%;
+        margin-top: 11vw;
+    }
+    
+    #tabLcirclepage6>img {
+        margin-top: 3vw;
+        margin-left: 1vw;
+    }
+    
+    #tabRcirclepage6 {
+        height: 9vw;
+        width: 9vw;
+        background-color: #5D50C6;
+        border-radius: 50%;
+        margin-top: 11vw;
+    }
+    
+    #tabRcirclepage6>img {
+        margin-top: 3vw;
+        margin-left: 1vw;
+    }
+    
+    #tabCpage6 {
+        text-align: center;
+        margin-top: 4vw;
+    }
+    
+    #tabCpage6>h2 {
+        margin-top: 2vw;
+    }
+    
+    #tabStarPage6 {
+        margin-top: 2vw;
+    }
+    
+    #tabCpage6>h3 {
+        margin-top: 3vw;
+    }
+    
+    #tabCirclePage6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+        gap: 3vw;
+    }
+    
+    .tabCirclePage6Fir {
+        height: 3vw;
+        width: 3vw;
+        border-radius: 50%;
+        background-color: #f0eff6;
+    }
+    
+    .tabCirclePage6Sec {
+        height: 3.5vw;
+        width: 3.5vw;
+        border-radius: 50%;
+        background-color: #F85E9F;
+        margin: 0.5vw;
+    }
+
+    #page-7-tablet{
+        margin-top: 15vw;
+        display: block;
+        background-color: #FFFBF0;
+        margin: 12vw 5vw 0 5vw;
+        border-radius: 5vw;
+        padding: 12vw 0 12vw 0;
+    }
+
+    #tabH3page7>h3 {
+        color: #F85E9F;
+        padding: 0 6vw;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        color: #F85E9F;
+    }
+    
+    #tabH3page7>h4 {
+        margin-top: 3vw;
+        font-size: 4.1vw;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    #tabFormPage7 {
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+    }
+    
+    #tabNewsletterFormText {
+        margin-top: 4vw;
+    }
+    
+    #tabNewsletterFormbtn {
+        margin-top: 4vw;
+    }
+    
+    #tabNewsletterFormText>input[type=text] {
+        height: 10.5vw;
+        width: 55vw;
+        margin-top: 1.5vw;
+        padding: 0 2vw;
+        border: 1px solid #fff;
+        border-radius: 4vw;
+        font-size: 3vw;
+    }
+    
+    #tabNewsletterFormbtn>button {
+        height: 10.5vw;
+        font-size: 2.5vw;
+        width: 25vw;
+        border: 1px solid #5D50C6;
+        background-color: #5D50C6;
+        border-radius: 4vw;
+        color: #ffffff;
+        margin-top: 1.5vw;
+        padding: 0 2vw;
+        font-weight: 600;
+    }
+
+    #footer-tablet{
+        margin-top: 18vw;
+        display: block;
+    }
+
+    #footer-tablet>img {
+        padding: 0 6vw;
+    }
+
+    #footer-tablet>p {
+        padding: 0 6vw;
+        font-size: 3vw;
+        margin-top: 5vw;
+        color: #8e8d94;
+    }
+
+    #tabFooterLogo {
+        padding: 0 6vw;
+    }
+
+    #tfooter {
+        display: flex;
+        gap: 6vw;
+        padding: 0 6vw 8vw 6vw;
+        margin-top: 8vw;
+    }
+    
+    .tfooterdets1>h2 {
+        font-weight: 400;
+        margin-top: 3vw;
+        color: #8e8d94;
     }
 }
